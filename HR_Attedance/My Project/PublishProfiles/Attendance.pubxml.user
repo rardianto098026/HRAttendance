@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\PROJECT\OTHER\Publish\HR\HRAttendance\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddMasterMenu.aspx">
+      <publishTime>07/27/2017 14:12:46</publishTime>
+    </File>
+    <File Include="AddMasterMenuChild.aspx">
+      <publishTime>07/27/2017 14:17:55</publishTime>
+    </File>
+    <File Include="bin/HR_Attedance.dll">
+      <publishTime>02/28/2020 17:27:36</publishTime>
+    </File>
+    <File Include="bin/HR_Attedance.xml">
+      <publishTime>02/28/2020 17:27:36</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap-theme.css">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap-theme.css.map">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap-theme.min.css">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap.css">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap.css.map">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap.min.css">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/css/bootstrap.min.css.map">
+      <publishTime>07/27/2017 18:37:43</publishTime>
+    </File>
+    <File Include="css/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/27/2017 18:37:50</publishTime>
+    </File>
+    <File Include="css/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/27/2017 18:37:50</publishTime>
+    </File>
+    <File Include="css/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/27/2017 18:37:50</publishTime>
+    </File>
+    <File Include="css/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/27/2017 18:37:50</publishTime>
+    </File>
+    <File Include="css/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/27/2017 18:37:50</publishTime>
+    </File>
+    <File Include="css/dist/js/bootstrap.js">
+      <publishTime>07/27/2017 18:37:57</publishTime>
+    </File>
+    <File Include="css/dist/js/bootstrap.min.js">
+      <publishTime>07/27/2017 18:37:57</publishTime>
+    </File>
+    <File Include="css/dist/js/npm.js">
+      <publishTime>07/27/2017 18:37:57</publishTime>
+    </File>
+    <File Include="css/font-awesome.css.map">
+      <publishTime>07/27/2017 19:42:03</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>07/27/2017 19:42:03</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>07/27/2017 19:42:03</publishTime>
+    </File>
+    <File Include="css/jquery.simple-dtpicker.css">
+      <publishTime>08/07/2017 15:29:57</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>11/22/2017 10:37:30</publishTime>
+    </File>
+    <File Include="css/Surrounding.css">
+      <publishTime>07/27/2017 19:42:03</publishTime>
+    </File>
+    <File Include="fonts/8u62BadBN2JBBSWXwLrcLA.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/bSEuBfAK9i16rKak_EdKNA.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/Hy3VpD2TiyQkDhJpDnN2QPesZW2xOQ-xsNqO47m55DA.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/J59yWLG3iwczjwZ63gnONw.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/kA_pX0U45Eb7PbHijV1x2w.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="fonts/lA-XzkxvFbAS7qSN5Rm7dw.woff2">
+      <publishTime>07/27/2017 18:38:08</publishTime>
+    </File>
+    <File Include="Frm_Add_Line_Manager.aspx">
+      <publishTime>02/22/2019 13:00:36</publishTime>
+    </File>
+    <File Include="Frm_Add_New_Line_Manager.aspx">
+      <publishTime>02/22/2019 13:00:47</publishTime>
+    </File>
+    <File Include="Frm_Approval_Reject_CWH.aspx">
+      <publishTime>03/01/2019 12:26:15</publishTime>
+    </File>
+    <File Include="Frm_Detail_Attendance_Admin.aspx">
+      <publishTime>08/14/2017 16:30:05</publishTime>
+    </File>
+    <File Include="Frm_Detail_Attendance_User.aspx">
+      <publishTime>08/15/2017 18:06:02</publishTime>
+    </File>
+    <File Include="Frm_Edit_Master_AccessCard.aspx">
+      <publishTime>02/27/2019 18:04:52</publishTime>
+    </File>
+    <File Include="Frm_ErrorHandler.aspx">
+      <publishTime>08/01/2017 11:18:43</publishTime>
+    </File>
+    <File Include="Frm_Error_Handler.aspx">
+      <publishTime>07/31/2017 12:07:20</publishTime>
+    </File>
+    <File Include="Frm_Expired.aspx">
+      <publishTime>12/20/2019 16:09:51</publishTime>
+    </File>
+    <File Include="Frm_List_ABSEN_ADMIN.aspx">
+      <publishTime>03/28/2019 14:30:08</publishTime>
+    </File>
+    <File Include="Frm_List_ABSEN_ADMIN_NONFTE.aspx">
+      <publishTime>01/06/2020 16:58:19</publishTime>
+    </File>
+    <File Include="Frm_List_ABSEN_USER.aspx">
+      <publishTime>03/28/2019 14:29:24</publishTime>
+    </File>
+    <File Include="Frm_list_Approval_Reject_CWH.aspx">
+      <publishTime>12/20/2019 15:30:29</publishTime>
+    </File>
+    <File Include="Frm_List_Attendance_for_Manager.aspx">
+      <publishTime>03/05/2019 11:14:19</publishTime>
+    </File>
+    <File Include="Frm_List_Detail_Admin.aspx">
+      <publishTime>03/04/2019 13:00:37</publishTime>
+    </File>
+    <File Include="Frm_List_Detail_Admin_New.aspx">
+      <publishTime>01/20/2020 11:02:20</publishTime>
+    </File>
+    <File Include="Frm_List_Detail_Attendance_For_Manager.aspx">
+      <publishTime>03/04/2019 13:00:37</publishTime>
+    </File>
+    <File Include="frm_list_Doc_CWH_for_Employee.aspx">
+      <publishTime>12/20/2019 16:10:43</publishTime>
+    </File>
+    <File Include="Frm_List_Doc_CWH_for_HR.aspx">
+      <publishTime>12/20/2019 16:10:26</publishTime>
+    </File>
+    <File Include="Frm_List_Doc_CWH_for_Manager.aspx">
+      <publishTime>03/26/2019 17:59:01</publishTime>
+    </File>
+    <File Include="Frm_List_Master_AccessCard.aspx">
+      <publishTime>03/28/2019 14:31:54</publishTime>
+    </File>
+    <File Include="Frm_Mapping_Line_Manager.aspx">
+      <publishTime>03/19/2019 11:07:30</publishTime>
+    </File>
+    <File Include="Frm_Upload_Absen.aspx">
+      <publishTime>09/21/2018 14:48:37</publishTime>
+    </File>
+    <File Include="Frm_Upload_CWH.aspx">
+      <publishTime>09/21/2018 14:48:27</publishTime>
+    </File>
+    <File Include="Frm_Upload_CWH_for_Employee.aspx">
+      <publishTime>12/20/2019 16:11:11</publishTime>
+    </File>
+    <File Include="Frm_Upload_CWH_for_HR.aspx">
+      <publishTime>12/20/2019 16:08:03</publishTime>
+    </File>
+    <File Include="Frm_Upload_Data_Employee.aspx">
+      <publishTime>09/21/2018 14:48:17</publishTime>
+    </File>
+    <File Include="Frm_upload_Data_Master_Attendance.aspx">
+      <publishTime>09/21/2018 14:48:04</publishTime>
+    </File>
+    <File Include="Frm_Upload_Mapping_Employee_Managers.aspx">
+      <publishTime>10/31/2018 15:28:07</publishTime>
+    </File>
+    <File Include="Frm_Upload_Master_AccessCard.aspx">
+      <publishTime>02/25/2019 15:11:53</publishTime>
+    </File>
+    <File Include="Frm_User_Matrix.aspx">
+      <publishTime>04/05/2019 09:42:43</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/31/2017 12:10:52</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>07/31/2017 14:51:30</publishTime>
+    </File>
+    <File Include="images/attendance.jpg">
+      <publishTime>07/27/2017 18:54:24</publishTime>
+    </File>
+    <File Include="images/attendance.png">
+      <publishTime>09/22/2017 10:04:09</publishTime>
+    </File>
+    <File Include="images/AXA-Banner.png">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/calendar.png">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/CellPhone.jpg">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/Edit.jpg">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/Edit2.jpg">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/ErrorPage.png">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/headerAXA1.jpg">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/icon.ico">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/logout.jpg">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/logout.png">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/Logout2.jpg">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="images/mandiri-axa.png">
+      <publishTime>07/27/2017 18:52:54</publishTime>
+    </File>
+    <File Include="js/background-blur.min.js">
+      <publishTime>07/27/2017 18:38:18</publishTime>
+    </File>
+    <File Include="js/Gruntfile.js">
+      <publishTime>08/07/2017 15:30:46</publishTime>
+    </File>
+    <File Include="js/index.js">
+      <publishTime>03/27/2019 17:36:26</publishTime>
+    </File>
+    <File Include="js/jquery-1.10.2.js">
+      <publishTime>07/27/2017 18:38:18</publishTime>
+    </File>
+    <File Include="js/jquery-1.8.0.js">
+      <publishTime>07/27/2017 18:38:18</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>07/27/2017 18:38:18</publishTime>
+    </File>
+    <File Include="js/jquery-ui.min.js">
+      <publishTime>07/27/2017 18:38:18</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>07/27/2017 18:38:18</publishTime>
+    </File>
+    <File Include="js/jquery.simple-dtpicker.js">
+      <publishTime>08/07/2017 15:29:19</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>12/20/2019 16:12:03</publishTime>
+    </File>
+    <File Include="LoginPage.aspx">
+      <publishTime>11/23/2017 15:59:36</publishTime>
+    </File>
+    <File Include="LoginPage/css.css">
+      <publishTime>11/23/2017 16:00:32</publishTime>
+    </File>
+    <File Include="LoginPage/css/style.css">
+      <publishTime>01/08/2018 11:37:11</publishTime>
+    </File>
+    <File Include="LoginPage/css/style.scss">
+      <publishTime>11/23/2017 16:02:40</publishTime>
+    </File>
+    <File Include="LoginPage/font-awesome.min.css">
+      <publishTime>11/23/2017 16:00:32</publishTime>
+    </File>
+    <File Include="LoginPage/index.html">
+      <publishTime>11/23/2017 16:00:32</publishTime>
+    </File>
+    <File Include="LoginPage/index.pug">
+      <publishTime>11/23/2017 16:00:32</publishTime>
+    </File>
+    <File Include="LoginPage/jquery.min.js">
+      <publishTime>11/23/2017 16:00:32</publishTime>
+    </File>
+    <File Include="LoginPage/js/index.js">
+      <publishTime>11/23/2017 16:01:03</publishTime>
+    </File>
+    <File Include="LoginPage/reset.min.css">
+      <publishTime>11/23/2017 16:00:32</publishTime>
+    </File>
+    <File Include="LoginPage/scss/style.scss">
+      <publishTime>11/23/2017 16:01:11</publishTime>
+    </File>
+    <File Include="Menu/AXA-Banner.png">
+      <publishTime>07/27/2017 18:39:06</publishTime>
+    </File>
+    <File Include="Menu/Footer.ascx">
+      <publishTime>07/27/2017 18:46:20</publishTime>
+    </File>
+    <File Include="Menu/Header.ascx">
+      <publishTime>10/24/2018 09:43:12</publishTime>
+    </File>
+    <File Include="Menu/mandiri-axa.png">
+      <publishTime>07/27/2017 18:39:06</publishTime>
+    </File>
+    <File Include="Menu/Menu.ascx">
+      <publishTime>07/27/2017 18:45:42</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>07/27/2017 18:38:27</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>07/27/2017 18:38:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/28/2020 14:38:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

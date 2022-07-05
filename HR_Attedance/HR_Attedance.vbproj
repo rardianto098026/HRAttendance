@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{2E8C8A78-73F9-4E6F-83FB-970CE2A8D578}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HR_Attedance</RootNamespace>
+    <AssemblyName>HR_Attedance</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>HR_Attedance.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>HR_Attedance.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddMasterMenu.aspx" />
+    <Content Include="AddMasterMenuChild.aspx" />
+    <Content Include="css\dist\css\bootstrap-theme.css" />
+    <Content Include="css\dist\css\bootstrap-theme.min.css" />
+    <Content Include="css\dist\css\bootstrap.css" />
+    <Content Include="css\dist\css\bootstrap.min.css" />
+    <Content Include="css\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="css\dist\js\bootstrap.js" />
+    <Content Include="css\dist\js\bootstrap.min.js" />
+    <Content Include="css\dist\js\npm.js" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery.simple-dtpicker.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\Surrounding.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Frm_Add_Line_Manager.aspx" />
+    <Content Include="Frm_Add_New_Line_Manager.aspx" />
+    <Content Include="Frm_Approval_Reject_CWH.aspx" />
+    <Content Include="Frm_Detail_Attendance_Admin.aspx" />
+    <Content Include="Frm_Detail_Attendance_User.aspx" />
+    <Content Include="Frm_Edit_Master_AccessCard.aspx" />
+    <Content Include="Frm_ErrorHandler.aspx" />
+    <Content Include="Frm_Expired.aspx" />
+    <Content Include="Frm_List_ABSEN_ADMIN.aspx" />
+    <Content Include="Frm_List_ABSEN_ADMIN_NONFTE.aspx" />
+    <Content Include="Frm_List_ABSEN_USER.aspx" />
+    <Content Include="Frm_list_Approval_Reject_CWH.aspx" />
+    <Content Include="Frm_List_Attendance_for_Manager.aspx" />
+    <Content Include="Frm_List_Detail_Admin.aspx" />
+    <Content Include="Frm_List_Detail_Admin_New.aspx" />
+    <Content Include="Frm_List_Detail_Attendance_For_Manager.aspx" />
+    <Content Include="frm_list_Doc_CWH_for_Employee.aspx" />
+    <Content Include="Frm_List_Doc_CWH_for_HR.aspx" />
+    <Content Include="Frm_List_Doc_CWH_for_Manager.aspx" />
+    <Content Include="Frm_List_Master_AccessCard.aspx" />
+    <Content Include="Frm_Mapping_Line_Manager.aspx" />
+    <Content Include="Frm_Upload_Absen.aspx" />
+    <Content Include="Frm_Upload_CWH.aspx" />
+    <Content Include="Frm_Upload_CWH_for_Employee.aspx" />
+    <Content Include="Frm_Upload_CWH_for_HR.aspx" />
+    <Content Include="Frm_Upload_Data_Employee.aspx" />
+    <Content Include="Frm_upload_Data_Master_Attendance.aspx" />
+    <Content Include="Frm_Upload_Mapping_Employee_Managers.aspx" />
+    <Content Include="Frm_Upload_Master_AccessCard.aspx" />
+    <Content Include="Frm_User_Matrix.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\attendance.jpg" />
+    <Content Include="images\attendance.png" />
+    <Content Include="images\AXA-Banner.png" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\CellPhone.jpg" />
+    <Content Include="images\Edit.jpg" />
+    <Content Include="images\Edit2.jpg" />
+    <Content Include="images\ErrorPage.png" />
+    <Content Include="images\headerAXA1.jpg" />
+    <Content Include="images\icon.ico" />
+    <Content Include="images\logout.jpg" />
+    <Content Include="images\logout.png" />
+    <Content Include="images\Logout2.jpg" />
+    <Content Include="images\mandiri-axa.png" />
+    <Content Include="js\background-blur.min.js" />
+    <Content Include="js\Gruntfile.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-1.8.0.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.simple-dtpicker.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="LoginPage\css.css" />
+    <Content Include="LoginPage\css\style.css" />
+    <Content Include="LoginPage\font-awesome.min.css" />
+    <Content Include="LoginPage\index.html" />
+    <Content Include="LoginPage\jquery.min.js" />
+    <Content Include="LoginPage\js\index.js" />
+    <Content Include="LoginPage\reset.min.css" />
+    <Content Include="Menu\AXA-Banner.png" />
+    <Content Include="Menu\Footer.ascx" />
+    <Content Include="Menu\Header.ascx" />
+    <Content Include="Menu\mandiri-axa.png" />
+    <Content Include="Menu\Menu.ascx" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMasterMenu.aspx.designer.vb">
+      <DependentUpon>AddMasterMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMasterMenu.aspx.vb">
+      <DependentUpon>AddMasterMenu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AddMasterMenuChild.aspx.designer.vb">
+      <DependentUpon>AddMasterMenuChild.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMasterMenuChild.aspx.vb">
+      <DependentUpon>AddMasterMenuChild.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DataAccess\DataAccessBase.vb" />
+    <Compile Include="DataAccess\DeleteBase.vb" />
+    <Compile Include="DataAccess\InsertBase.vb" />
+    <Compile Include="DataAccess\SelectBase.vb" />
+    <Compile Include="DataAccess\UpdateBase.vb" />
+    <Compile Include="Frm_Add_Line_Manager.aspx.designer.vb">
+      <DependentUpon>Frm_Add_Line_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Add_Line_Manager.aspx.vb">
+      <DependentUpon>Frm_Add_Line_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Add_New_Line_Manager.aspx.designer.vb">
+      <DependentUpon>Frm_Add_New_Line_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Add_New_Line_Manager.aspx.vb">
+      <DependentUpon>Frm_Add_New_Line_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Approval_Reject_CWH.aspx.designer.vb">
+      <DependentUpon>Frm_Approval_Reject_CWH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Approval_Reject_CWH.aspx.vb">
+      <DependentUpon>Frm_Approval_Reject_CWH.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Detail_Attendance_Admin.aspx.designer.vb">
+      <DependentUpon>Frm_Detail_Attendance_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Detail_Attendance_Admin.aspx.vb">
+      <DependentUpon>Frm_Detail_Attendance_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Detail_Attendance_User.aspx.designer.vb">
+      <DependentUpon>Frm_Detail_Attendance_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Detail_Attendance_User.aspx.vb">
+      <DependentUpon>Frm_Detail_Attendance_User.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Edit_Master_AccessCard.aspx.designer.vb">
+      <DependentUpon>Frm_Edit_Master_AccessCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Edit_Master_AccessCard.aspx.vb">
+      <DependentUpon>Frm_Edit_Master_AccessCard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_ErrorHandler.aspx.designer.vb">
+      <DependentUpon>Frm_ErrorHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ErrorHandler.aspx.vb">
+      <DependentUpon>Frm_ErrorHandler.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Expired.aspx.designer.vb">
+      <DependentUpon>Frm_Expired.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Expired.aspx.vb">
+      <DependentUpon>Frm_Expired.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_ABSEN_ADMIN.aspx.designer.vb">
+      <DependentUpon>Frm_List_ABSEN_ADMIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_ABSEN_ADMIN.aspx.vb">
+      <DependentUpon>Frm_List_ABSEN_ADMIN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_ABSEN_ADMIN_NONFTE.aspx.designer.vb">
+      <DependentUpon>Frm_List_ABSEN_ADMIN_NONFTE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_ABSEN_ADMIN_NONFTE.aspx.vb">
+      <DependentUpon>Frm_List_ABSEN_ADMIN_NONFTE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_ABSEN_USER.aspx.designer.vb">
+      <DependentUpon>Frm_List_ABSEN_USER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_ABSEN_USER.aspx.vb">
+      <DependentUpon>Frm_List_ABSEN_USER.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_list_Approval_Reject_CWH.aspx.designer.vb">
+      <DependentUpon>Frm_list_Approval_Reject_CWH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_list_Approval_Reject_CWH.aspx.vb">
+      <DependentUpon>Frm_list_Approval_Reject_CWH.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Attendance_for_Manager.aspx.designer.vb">
+      <DependentUpon>Frm_List_Attendance_for_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Attendance_for_Manager.aspx.vb">
+      <DependentUpon>Frm_List_Attendance_for_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Detail_Admin.aspx.designer.vb">
+      <DependentUpon>Frm_List_Detail_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Detail_Admin.aspx.vb">
+      <DependentUpon>Frm_List_Detail_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Detail_Admin_New.aspx.designer.vb">
+      <DependentUpon>Frm_List_Detail_Admin_New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Detail_Admin_New.aspx.vb">
+      <DependentUpon>Frm_List_Detail_Admin_New.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Detail_Attendance_For_Manager.aspx.designer.vb">
+      <DependentUpon>Frm_List_Detail_Attendance_For_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Detail_Attendance_For_Manager.aspx.vb">
+      <DependentUpon>Frm_List_Detail_Attendance_For_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_list_Doc_CWH_for_Employee.aspx.designer.vb">
+      <DependentUpon>frm_list_Doc_CWH_for_Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_list_Doc_CWH_for_Employee.aspx.vb">
+      <DependentUpon>frm_list_Doc_CWH_for_Employee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Doc_CWH_for_HR.aspx.designer.vb">
+      <DependentUpon>Frm_List_Doc_CWH_for_HR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Doc_CWH_for_HR.aspx.vb">
+      <DependentUpon>Frm_List_Doc_CWH_for_HR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Doc_CWH_for_Manager.aspx.designer.vb">
+      <DependentUpon>Frm_List_Doc_CWH_for_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Doc_CWH_for_Manager.aspx.vb">
+      <DependentUpon>Frm_List_Doc_CWH_for_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_List_Master_AccessCard.aspx.designer.vb">
+      <DependentUpon>Frm_List_Master_AccessCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_List_Master_AccessCard.aspx.vb">
+      <DependentUpon>Frm_List_Master_AccessCard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Mapping_Line_Manager.aspx.designer.vb">
+      <DependentUpon>Frm_Mapping_Line_Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Mapping_Line_Manager.aspx.vb">
+      <DependentUpon>Frm_Mapping_Line_Manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_Absen.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_Absen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_Absen.aspx.vb">
+      <DependentUpon>Frm_Upload_Absen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_CWH.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_CWH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_CWH.aspx.vb">
+      <DependentUpon>Frm_Upload_CWH.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_CWH_for_Employee.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_CWH_for_Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_CWH_for_Employee.aspx.vb">
+      <DependentUpon>Frm_Upload_CWH_for_Employee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_CWH_for_HR.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_CWH_for_HR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_CWH_for_HR.aspx.vb">
+      <DependentUpon>Frm_Upload_CWH_for_HR.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_Data_Employee.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_Data_Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_Data_Employee.aspx.vb">
+      <DependentUpon>Frm_Upload_Data_Employee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_upload_Data_Master_Attendance.aspx.designer.vb">
+      <DependentUpon>Frm_upload_Data_Master_Attendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_upload_Data_Master_Attendance.aspx.vb">
+      <DependentUpon>Frm_upload_Data_Master_Attendance.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_Mapping_Employee_Managers.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_Mapping_Employee_Managers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_Mapping_Employee_Managers.aspx.vb">
+      <DependentUpon>Frm_Upload_Mapping_Employee_Managers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_Upload_Master_AccessCard.aspx.designer.vb">
+      <DependentUpon>Frm_Upload_Master_AccessCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Upload_Master_AccessCard.aspx.vb">
+      <DependentUpon>Frm_Upload_Master_AccessCard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Frm_User_Matrix.aspx.designer.vb">
+      <DependentUpon>Frm_User_Matrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_User_Matrix.aspx.vb">
+      <DependentUpon>Frm_User_Matrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.vb">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.vb">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Menu.ascx.designer.vb">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Menu.ascx.vb">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\font-awesome.css.map" />
+    <Content Include="css\dist\css\bootstrap-theme.css.map" />
+    <Content Include="css\dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="css\dist\css\bootstrap.css.map" />
+    <Content Include="css\dist\css\bootstrap.min.css.map" />
+    <Content Include="css\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="css\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="css\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="css\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\8u62BadBN2JBBSWXwLrcLA.woff2" />
+    <Content Include="fonts\bSEuBfAK9i16rKak_EdKNA.woff2" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\Hy3VpD2TiyQkDhJpDnN2QPesZW2xOQ-xsNqO47m55DA.woff2" />
+    <Content Include="fonts\J59yWLG3iwczjwZ63gnONw.woff2" />
+    <Content Include="fonts\kA_pX0U45Eb7PbHijV1x2w.woff2" />
+    <Content Include="fonts\lA-XzkxvFbAS7qSN5Rm7dw.woff2" />
+    <Content Include="LoginPage\index.pug" />
+    <Content Include="LoginPage\scss\style.scss" />
+    <Content Include="LoginPage\css\style.scss" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\Attendance.pubxml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63592</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:63592/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

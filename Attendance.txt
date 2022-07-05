@@ -1,0 +1,4 @@
+Penambahan di Attendance 28 Februari--> sebagai berikut:
+1. jika employee id = 106680 maka akan diarahkan ke halaman Frm_List_ABSEN_ADMIN_NONFTE di hardcode pada code Frm_List_ABSEN_ADMIN.aspx.vb bagian load
+2. cari di bagian load request cwh dengan kataa kunci Februari, harusnya lu inget. sama ganti sp nya kalo pake id no.1 ngeload yg NON_fte aja
+3. DI SQL BAGIAN [sp_SEL_LIST_ATTENDANCE_ADMIN_NONFTE] DIBERI 'IF' KALAU ID NO.1 YANG LOGIN MAKA BISA SEARCH SELURUH KARYAWAN NON FTE TANPA BATASAN ENTITY

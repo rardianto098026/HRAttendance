@@ -1,0 +1,7157 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HR_Attedance
+</name>
+</assembly>
+<members>
+<member name="F:HR_Attedance.AddMasterMenu._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._txtMenuName">
+<summary>
+txtMenuName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._btnChild">
+<summary>
+btnChild control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._Table4">
+<summary>
+Table4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenu._lbl2">
+<summary>
+lbl2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._menu1">
+<summary>
+menu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._txtMenuChildName">
+<summary>
+txtMenuChildName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._txtPath">
+<summary>
+txtPath control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._ddl_Mst_Menu">
+<summary>
+ddl_Mst_Menu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._Table4">
+<summary>
+Table4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.AddMasterMenuChild._lbl2">
+<summary>
+lbl2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="P:HR_Attedance.DataAccessBase.ConnectionString">
+ <summary>
+ Gets or sets the string used to open a SQL Server database.
+ </summary>
+ <returns>The connection string that includes the source database name, and other parameters needed to establish the initial connection.</returns>
+</member>
+<member name="M:HR_Attedance.DataAccessBase.FillDataset(System.String,System.String,System.Data.CommandType,System.Data.SqlClient.SqlParameter[])">
+ <summary>
+ Adds or refreshes rows in the System.Data.DataSet to match those in the data source using the System.Data.DataSet name, and creates a System.Data.DataTable named "Table."
+ </summary>
+ <param name="cmd">The Transact-SQL statement or stored procedure to execute at the data source.</param>
+ <param name="cmdType">A value indicating how the System.Data.SqlClient.SqlCommand.CommandText property is to be interpreted.</param>
+ <param name="parameters">The parameters of the Transact-SQL statement or stored procedure.</param>
+ <returns>A System.Data.Dataset object.</returns>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._EmplIDManager">
+<summary>
+EmplIDManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._EmplIDManager2">
+<summary>
+EmplIDManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._EmplNameManager">
+<summary>
+EmplNameManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._EmplNameManager2">
+<summary>
+EmplNameManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEmailManager">
+<summary>
+lblEmailManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._EmailManager2">
+<summary>
+EmailManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEmployeeID">
+<summary>
+lblEmployeeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEmployeeID2">
+<summary>
+lblEmployeeID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEmployeeName">
+<summary>
+lblEmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEmployeeName2">
+<summary>
+lblEmployeeName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._LblEmail">
+<summary>
+LblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._Email2">
+<summary>
+Email2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEntity">
+<summary>
+lblEntity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblWorkerType">
+<summary>
+lblWorkerType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._lblWorkerType2">
+<summary>
+lblWorkerType2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_Line_Manager._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._EmplIDManager">
+<summary>
+EmplIDManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._EmplIDManager2">
+<summary>
+EmplIDManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._EmplNameManager">
+<summary>
+EmplNameManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._EmplNameManager2">
+<summary>
+EmplNameManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblEmailManager">
+<summary>
+lblEmailManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._EmailManager2">
+<summary>
+EmailManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblEmployeeID">
+<summary>
+lblEmployeeID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblEmployeeID2">
+<summary>
+lblEmployeeID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblEmployeeName">
+<summary>
+lblEmployeeName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._ddlEmployeeName2">
+<summary>
+ddlEmployeeName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._LblEmail">
+<summary>
+LblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._Email2">
+<summary>
+Email2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblEntity">
+<summary>
+lblEntity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblWorkerType">
+<summary>
+lblWorkerType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._lblWorkerType2">
+<summary>
+lblWorkerType2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Add_New_Line_Manager._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblRole">
+<summary>
+lblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblEmplID">
+<summary>
+lblEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblEmplName">
+<summary>
+lblEmplName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblEntity">
+<summary>
+lblEntity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblEmail">
+<summary>
+lblEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblYear">
+<summary>
+lblYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._lblQuarter">
+<summary>
+lblQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._LinkDwn1">
+<summary>
+LinkDwn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._txtRemarks">
+<summary>
+txtRemarks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._btnReject">
+<summary>
+btnReject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Approval_Reject_CWH._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblEmployeeKey1">
+<summary>
+lblEmployeeKey1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblEmployeeKey2">
+<summary>
+lblEmployeeKey2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblEmployeeName1">
+<summary>
+lblEmployeeName1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblEmployeeName2">
+<summary>
+lblEmployeeName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblEntity1">
+<summary>
+lblEntity1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblAccessCardNo1">
+<summary>
+lblAccessCardNo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblAccessCardNo2">
+<summary>
+lblAccessCardNo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblFirstSignIn1">
+<summary>
+lblFirstSignIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._txtFirstSignIn2">
+<summary>
+txtFirstSignIn2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTimeSignIn1">
+<summary>
+lblTimeSignIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._txtTimeSignIn2">
+<summary>
+txtTimeSignIn2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTimeFormat">
+<summary>
+lblTimeFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblSignOut1">
+<summary>
+lblSignOut1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._txtSignOut2">
+<summary>
+txtSignOut2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTimeSignOut">
+<summary>
+lblTimeSignOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._txtTimeSignOut">
+<summary>
+txtTimeSignOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTimeFormat2">
+<summary>
+lblTimeFormat2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblMonth1">
+<summary>
+lblMonth1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblMonth2">
+<summary>
+lblMonth2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblDays1">
+<summary>
+lblDays1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblDays">
+<summary>
+lblDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTypeofDays1">
+<summary>
+lblTypeofDays1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTypeofDays2">
+<summary>
+lblTypeofDays2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblArrivalStatus1">
+<summary>
+lblArrivalStatus1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblArrivalStatus2">
+<summary>
+lblArrivalStatus2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTotalWorkingTime1">
+<summary>
+lblTotalWorkingTime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblTotalWorkingTime2">
+<summary>
+lblTotalWorkingTime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblWorkingStatus1">
+<summary>
+lblWorkingStatus1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblWorkingStatus2">
+<summary>
+lblWorkingStatus2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblisOvertime1">
+<summary>
+lblisOvertime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblisOvertime2">
+<summary>
+lblisOvertime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblOvertime1">
+<summary>
+lblOvertime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._lblOvertime2">
+<summary>
+lblOvertime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._LBL12Hours1">
+<summary>
+LBL12Hours1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._LBL12Hours2">
+<summary>
+LBL12Hours2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_Admin._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblEmployeeKey1">
+<summary>
+lblEmployeeKey1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblEmployeeKey2">
+<summary>
+lblEmployeeKey2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblEmployeeName1">
+<summary>
+lblEmployeeName1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblEmployeeName2">
+<summary>
+lblEmployeeName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblEntity1">
+<summary>
+lblEntity1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblAccessCardNo1">
+<summary>
+lblAccessCardNo1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblAccessCardNo2">
+<summary>
+lblAccessCardNo2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblFirstSignIn1">
+<summary>
+lblFirstSignIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._txtFirstSignIn2">
+<summary>
+txtFirstSignIn2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTimeSignIn1">
+<summary>
+lblTimeSignIn1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._txtTimeSignIn2">
+<summary>
+txtTimeSignIn2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTimeFormat">
+<summary>
+lblTimeFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblSignOut1">
+<summary>
+lblSignOut1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._txtSignOut2">
+<summary>
+txtSignOut2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTimeSignOut">
+<summary>
+lblTimeSignOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._txtTimeSignOut">
+<summary>
+txtTimeSignOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTimeFormat2">
+<summary>
+lblTimeFormat2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblMonth1">
+<summary>
+lblMonth1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblMonth2">
+<summary>
+lblMonth2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblDays1">
+<summary>
+lblDays1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblDays">
+<summary>
+lblDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTypeofDays1">
+<summary>
+lblTypeofDays1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTypeofDays2">
+<summary>
+lblTypeofDays2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblArrivalStatus1">
+<summary>
+lblArrivalStatus1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblArrivalStatus2">
+<summary>
+lblArrivalStatus2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTotalWorkingTime1">
+<summary>
+lblTotalWorkingTime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblTotalWorkingTime2">
+<summary>
+lblTotalWorkingTime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblWorkingStatus1">
+<summary>
+lblWorkingStatus1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblWorkingStatus2">
+<summary>
+lblWorkingStatus2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblisOvertime1">
+<summary>
+lblisOvertime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblisOvertime2">
+<summary>
+lblisOvertime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblOvertime1">
+<summary>
+lblOvertime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._lblOvertime2">
+<summary>
+lblOvertime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._LBL12Hours1">
+<summary>
+LBL12Hours1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._LBL12Hours2">
+<summary>
+LBL12Hours2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Detail_Attendance_User._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._LblAccessCard">
+<summary>
+LblAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblEmplID">
+<summary>
+lblEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblEntity">
+<summary>
+lblEntity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblLocationName">
+<summary>
+lblLocationName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblEmployeeGender">
+<summary>
+lblEmployeeGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._lblWorkerType">
+<summary>
+lblWorkerType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Submit">
+<summary>
+Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._Back">
+<summary>
+Back control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Edit_Master_AccessCard._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Error_Handler._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Error_Handler._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Error_Handler._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Error_Handler._Table2">
+<summary>
+Table2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Error_Handler._Table1">
+<summary>
+Table1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Error_Handler._LogOut">
+<summary>
+LogOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._lblQuarter">
+<summary>
+lblQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._ddlQuater">
+<summary>
+ddlQuater control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._txtDate">
+<summary>
+txtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._lblErr">
+<summary>
+lblErr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._lblPeriod">
+<summary>
+lblPeriod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._Table4">
+<summary>
+Table4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Expired._lbl2">
+<summary>
+lbl2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._txtAccessCard">
+<summary>
+txtAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._ChkEmpl1">
+<summary>
+ChkEmpl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._txtEmplID">
+<summary>
+txtEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblEmplID2">
+<summary>
+lblEmplID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._ChkName">
+<summary>
+ChkName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._txtAccessCard">
+<summary>
+txtAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._ChkEmpl1">
+<summary>
+ChkEmpl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._txtEmplID">
+<summary>
+txtEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblEmplID2">
+<summary>
+lblEmplID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._ChkName">
+<summary>
+ChkName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_ADMIN_NONFTE._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._txtDate">
+<summary>
+txtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblErrDate">
+<summary>
+lblErrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._chkQuarter">
+<summary>
+chkQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblDocCWH">
+<summary>
+lblDocCWH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblQuarter">
+<summary>
+lblQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblStatusApproved">
+<summary>
+lblStatusApproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._Export">
+<summary>
+Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._ListCWH">
+<summary>
+ListCWH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._LinkButton1">
+<summary>
+LinkButton1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_ABSEN_USER._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblSession">
+<summary>
+lblSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._CheckBox1">
+<summary>
+CheckBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._ChkEmpl1">
+<summary>
+ChkEmpl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._txtEmplID">
+<summary>
+txtEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblEmplID2">
+<summary>
+lblEmplID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._ChkName">
+<summary>
+ChkName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblRole">
+<summary>
+lblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._eXPORT">
+<summary>
+eXPORT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_list_Approval_Reject_CWH._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._txtAccessCard">
+<summary>
+txtAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._ChkEmpl1">
+<summary>
+ChkEmpl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._txtEmplID">
+<summary>
+txtEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lblEmplID2">
+<summary>
+lblEmplID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Attendance_for_Manager._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._LblAccessCard">
+<summary>
+LblAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblEmplID">
+<summary>
+lblEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblEntity">
+<summary>
+lblEntity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblDocCWH">
+<summary>
+lblDocCWH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblQuarter">
+<summary>
+lblQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblStatusApproved">
+<summary>
+lblStatusApproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._Export">
+<summary>
+Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._dg">
+<summary>
+dg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._LblAccessCard">
+<summary>
+LblAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblEmplID">
+<summary>
+lblEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblEntity">
+<summary>
+lblEntity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblDocCWH">
+<summary>
+lblDocCWH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblQuarter">
+<summary>
+lblQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblStatusApproved">
+<summary>
+lblStatusApproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._Export">
+<summary>
+Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._dg">
+<summary>
+dg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Admin_New._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblYears">
+<summary>
+lblYears control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lbEmplID">
+<summary>
+lbEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._txtDate">
+<summary>
+txtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblErrDate">
+<summary>
+lblErrDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._chkQuarter">
+<summary>
+chkQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._ChkUpdate">
+<summary>
+ChkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._ddlMonth">
+<summary>
+ddlMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblDocCWH">
+<summary>
+lblDocCWH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblQuarter">
+<summary>
+lblQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblStatusApproved">
+<summary>
+lblStatusApproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._Export">
+<summary>
+Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Detail_Attendance_For_Manager._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._CheckBox1">
+<summary>
+CheckBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._Back">
+<summary>
+Back control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.frm_list_Doc_CWH_for_Employee._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._ChkEmployee">
+<summary>
+ChkEmployee control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._txtEmplName">
+<summary>
+txtEmplName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._CheckBox1">
+<summary>
+CheckBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._eXPORT">
+<summary>
+eXPORT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._Back">
+<summary>
+Back control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_HR._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._ChkEmployee">
+<summary>
+ChkEmployee control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._txtEmplName">
+<summary>
+txtEmplName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._chkAccess">
+<summary>
+chkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lblErrAccessCard">
+<summary>
+lblErrAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._CheckBox1">
+<summary>
+CheckBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._Back">
+<summary>
+Back control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Doc_CWH_for_Manager._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblSession">
+<summary>
+lblSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._ChkAccess">
+<summary>
+ChkAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblMngrID1">
+<summary>
+lblMngrID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._txtAccessCard">
+<summary>
+txtAccessCard control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblAccess">
+<summary>
+lblAccess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._ChkEmpl">
+<summary>
+ChkEmpl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._txtEmplID">
+<summary>
+txtEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblEmpl">
+<summary>
+lblEmpl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblEntity2">
+<summary>
+lblEntity2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblRole">
+<summary>
+lblRole control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._Export">
+<summary>
+Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_List_Master_AccessCard._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._ChkMngr1">
+<summary>
+ChkMngr1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lblMngrID1">
+<summary>
+lblMngrID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._txtMngrID">
+<summary>
+txtMngrID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lblMngrID2">
+<summary>
+lblMngrID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._ChkEmpl1">
+<summary>
+ChkEmpl1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lblEmplID1">
+<summary>
+lblEmplID1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._txtEmplID">
+<summary>
+txtEmplID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lblEmplID2">
+<summary>
+lblEmplID2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._Search">
+<summary>
+Search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._Export">
+<summary>
+Export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._AddLine">
+<summary>
+AddLine control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._dgRekeningKoran">
+<summary>
+dgRekeningKoran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._pnlfooter">
+<summary>
+pnlfooter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._tablepaging">
+<summary>
+tablepaging control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lbFirst">
+<summary>
+lbFirst control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lbPrev">
+<summary>
+lbPrev control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._txtGO">
+<summary>
+txtGO control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lblTotal">
+<summary>
+lblTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lnkGo">
+<summary>
+lnkGo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lnkNext">
+<summary>
+lnkNext control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lnkLast">
+<summary>
+lnkLast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._lblTotalRecords">
+<summary>
+lblTotalRecords control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._ddl_View">
+<summary>
+ddl_View control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Mapping_Line_Manager._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Absen._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._lbLYear">
+<summary>
+lbLYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._txtMonth">
+<summary>
+txtMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._lblstatExpired">
+<summary>
+lblstatExpired control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_Employee._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._lbLYear">
+<summary>
+lbLYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._ddlQuarter">
+<summary>
+ddlQuarter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._txtMonth">
+<summary>
+txtMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_CWH_for_HR._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Data_Employee._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_upload_Data_Master_Attendance._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Mapping_Employee_Managers._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._txtUpload">
+<summary>
+txtUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._lblErr_Upload">
+<summary>
+lblErr_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._txtUpload1">
+<summary>
+txtUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._lblErr_Upload1">
+<summary>
+lblErr_Upload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._btnSubmit1">
+<summary>
+btnSubmit1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._btnBack1">
+<summary>
+btnBack1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_Upload_Master_AccessCard._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._menu1">
+<summary>
+menu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._lblErr_ATP">
+<summary>
+lblErr_ATP control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._btnRetr">
+<summary>
+btnRetr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._LblErr">
+<summary>
+LblErr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._TreeView1">
+<summary>
+TreeView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._BtnDelete">
+<summary>
+BtnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._btnBack">
+<summary>
+btnBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._eXPORT">
+<summary>
+eXPORT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Frm_User_Matrix._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Home._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Home._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Home._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Home._My1">
+<summary>
+My1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Home._My3">
+<summary>
+My3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._Form1">
+<summary>
+Form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._errYear">
+<summary>
+errYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Login._lblLogin">
+<summary>
+lblLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.LoginPage._Form1">
+<summary>
+Form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.LoginPage._txtUser">
+<summary>
+txtUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.LoginPage._txtPass">
+<summary>
+txtPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.LoginPage._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.LoginPage._lblLogin">
+<summary>
+lblLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Footer._Table4">
+<summary>
+Table4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Footer._lbl2">
+<summary>
+lbl2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Header._imgAXA">
+<summary>
+imgAXA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Header._LogOut">
+<summary>
+LogOut control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Header._lblWe">
+<summary>
+lblWe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Header._lblGreet">
+<summary>
+lblGreet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Header._LBLEmplNumber">
+<summary>
+LBLEmplNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HR_Attedance.Menu._Menu1">
+<summary>
+Menu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:HR_Attedance.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HR_Attedance.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:HR_Attedance.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:HR_Attedance.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:HR_Attedance.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:HR_Attedance.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+</members>
+</doc>

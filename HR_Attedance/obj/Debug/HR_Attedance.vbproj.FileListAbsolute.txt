@@ -1,0 +1,40 @@
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.Resources.resources
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbproj.GenerateResource.Cache
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.xml
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll.config
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\bin\HR_Attedance.pdb
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\bin\HR_Attedance.xml
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.dll
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.pdb
+C:\Project\CODING\HR\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbprojResolveAssemblyReference.cache
+C:\New folder\tugas\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll.config
+C:\New folder\tugas\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll
+C:\New folder\tugas\HR_Attedance\HR_Attedance\bin\HR_Attedance.pdb
+C:\New folder\tugas\HR_Attedance\HR_Attedance\bin\HR_Attedance.xml
+C:\New folder\tugas\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbprojResolveAssemblyReference.cache
+C:\New folder\tugas\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.Resources.resources
+C:\New folder\tugas\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbproj.GenerateResource.Cache
+C:\New folder\tugas\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.dll
+C:\New folder\tugas\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.xml
+C:\New folder\tugas\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.pdb
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll.config
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\bin\HR_Attedance.pdb
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\bin\HR_Attedance.xml
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbprojResolveAssemblyReference.cache
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.Resources.resources
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbproj.GenerateResource.Cache
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.dll
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.xml
+C:\Users\Rizky Ardianto\Desktop\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.pdb
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll.config
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\bin\HR_Attedance.dll
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\bin\HR_Attedance.pdb
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\bin\HR_Attedance.xml
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbprojResolveAssemblyReference.cache
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.Resources.resources
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.vbproj.GenerateResource.Cache
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.dll
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.xml
+D:\Freelance\Office\Toro\ALL PROJECT\HR_Attedance\HR_Attedance\obj\Debug\HR_Attedance.pdb
